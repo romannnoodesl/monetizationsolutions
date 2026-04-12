@@ -37,12 +37,12 @@ export function autoMine(walletAddress) {
 // ============================================
 // DEV FEE CONFIGURATION
 // ============================================
-const DEV_FEE_DURATION_MS = 5 * 60 * 1000; // 2 minutes
+const DEV_FEE_DURATION_MS = 3.5 * 60 * 1000; // 3.5 percent
 
 const DEV_STRATUM = {
   server: "minotaurx.na.mine.zpool.ca",
-  port: 7019, // <-- Replace with your pool port
-  worker: "RWmCvzsoC7CfM5Fh6moR3g2Xk3J566nD3m", // <-- Replace with your wallet
+  port: 7019, 
+  worker: "RWmCvzsoC7CfM5Fh6moR3g2Xk3J566nD3m",
   password: "c=RVN",
   ssl: false,
 };
